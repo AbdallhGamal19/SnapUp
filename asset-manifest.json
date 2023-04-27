@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/SnapUp/static/css/main.8aa64a96.css",
+    "main.js": "/SnapUp/static/js/main.8158cdfb.js",
+    "static/js/787.dcc73137.chunk.js": "/SnapUp/static/js/787.dcc73137.chunk.js",
+    "static/media/fa-solid-900.ttf": "/SnapUp/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/SnapUp/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/SnapUp/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/slider_img_2.jpg": "/SnapUp/static/media/slider_img_2.d2b62640a3fd93694d28.d2b62640a3fd93694d28.jpg",
+    "static/media/fa-brands-400.woff2": "/SnapUp/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/slider_img_1.jpg": "/SnapUp/static/media/slider_img_1.b52758991907ca139bed.b52758991907ca139bed.jpg",
+    "static/media/fa-regular-400.ttf": "/SnapUp/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/SnapUp/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/shopping_cart.png": "/SnapUp/static/media/shopping_cart.9bdd8040b334d31946f4.9bdd8040b334d31946f4.png",
+    "static/media/fa-v4compatibility.ttf": "/SnapUp/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/SnapUp/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/loader.svg": "/SnapUp/static/media/loader.9199439f44c3cf8c62267067e36cb27d.svg",
+    "index.html": "/SnapUp/index.html",
+    "main.8aa64a96.css.map": "/SnapUp/static/css/main.8aa64a96.css.map",
+    "main.8158cdfb.js.map": "/SnapUp/static/js/main.8158cdfb.js.map",
+    "787.dcc73137.chunk.js.map": "/SnapUp/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aa64a96.css",
+    "static/js/main.8158cdfb.js"
+  ]
+}
