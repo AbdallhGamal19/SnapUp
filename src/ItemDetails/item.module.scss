@@ -1,0 +1,64 @@
+@import '../App.scss';
+.item {
+    border-radius: 8px;
+    font-family: $font-family-manrope !important;
+    box-shadow: rgba(50, 50, 93, 0.05) 0px 2px 5px -1px, rgba(0, 0, 0, 0.05) 0px 1px 3px -1px;
+    transition: box-shadow ,0.3s;
+}
+.item:hover {
+    box-shadow: rgba(50, 50, 93, 0.1) 0px 2px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 20px -1px;
+}
+.item img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.pots {
+    position: absolute;
+    left: -5px;
+    top: 1.6rem;
+    background-color: $clr-orange;
+    box-shadow:rgba(0, 0, 0, 0.05) 0px 1px 2px, rgba(0, 0, 0, 0.24) 0px 1px 2px;;
+    color: white;
+    padding: 0 5px;
+    font-size: 13px;
+}
+.brandName {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.500);
+    border-bottom: 1px solid #F2F2f2;
+    
+}
+.productName {
+    font-size: 14.5px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding: 8px 0;
+    color: rgba(0, 0, 0, 0.703);
+}
+
+.priceInfo span:nth-child(1) {
+    color: rgba(0, 0, 0, 0.500);
+    font-size: 12px;
+    
+    text-decoration: line-through;
+}
+.priceInfo span:nth-child(2){
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 4px;
+    color: #000;
+}
+.priceInfo span:nth-child(2)::after{
+    content: '';
+    position: absolute;
+    width: 130%;
+    height: 1px;
+    background-color: #fa7862;
+    left: -15%;
+    bottom: 0;
+}
+.priceInfo span:nth-child(3) {
+    font-size: 13px;
+    color: #fa7862;
+    font-weight: bold;
+}

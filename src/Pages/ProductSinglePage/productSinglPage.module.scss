@@ -1,0 +1,73 @@
+@import '../../App.scss';
+.pageOfProduct {
+    font-family: $font-family-manrope;
+  }
+.title {
+    border-bottom: 1px solid #F2F2f2;
+}
+
+.description p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+.details {
+    font-size: 14px;
+    margin: 0 0 16px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.details span  {
+    color: $clr-orange;
+    margin-right:  4px;
+}
+.details span span  {
+    color: #000000;
+}
+.descount {
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 20px ;
+}
+.descount span  {
+    font-size: 14px;
+    color: #212529;
+}
+.descount span span {
+    font-size: 16px;
+    text-decoration:line-through;
+    color: $clr-gray;
+    margin-right: 5px;
+}
+.newPrice span:first-child {
+    color: $clr-orange;
+    font-size: 24px;
+    margin-right: 10px;
+
+}
+
+.newPrice span:last-child {
+    background-color: $clr-orange;
+    color: #ffffff;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+.btns {
+    font-size: 15px;
+}
+.btns .decAndInc button{
+    padding: 7px 15px ;
+    border: 1px solid #F2F2f2;
+    margin: 0 10px;
+    display: inline-block;
+}
+.btns .cartAndBuy button:first-child {
+    padding: 10px;
+    border: 1px solid $clr-orange ;
+    background-color: #ffeee8;
+    color: $clr-orange ;
+    
+}
+.btns .cartAndBuy button:last-child {
+    color: white;
+    background-color: $clr-orange ;
+    padding: 10px;
+}

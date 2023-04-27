@@ -1,0 +1,33 @@
+@import '../../App.scss';
+.side {
+    width: 300px !important;
+}
+.side h5 {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.btnColor {
+    color: #000;
+    font-size: 20px;
+    background-color: transparent;
+    transition: 0.2s;
+}
+.btnColor:hover {
+    color: $clr-orange;
+}
+.side li {
+    padding: 10px 0 ;
+    font-size: 14px !important;
+}
+.side li:not(:last-child) {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+.side li a {
+    color: #000 !important;
+    font-family: $font-family-poppins;
+    transition: 0.3s  ;
+}
+.side li:hover a  {
+    color: $clr-orange !important;
+    margin-left: 5px;
+}
