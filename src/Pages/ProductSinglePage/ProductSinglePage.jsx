@@ -58,9 +58,23 @@ function decreaseNumOfItem() {
 }
 
 
+
+
   return (
     
-      <>
+    <>
+
+      <div className="modal fade bg-transparent" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabIndex="-1">
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content bg-transparent border-0">
+            <div className={` ${style.model} modal-body`}>
+              An Item Has Been Added To Your Shopping Cart
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       {dataOfProduct?.price==null&&<Loader/>}
         <div className= {`conten ${style.pageOfProduct} row gx-5 bg-white rounded-1  p-3 text-black`}>
         <div className="box col-md-6 ">
@@ -111,13 +125,12 @@ function decreaseNumOfItem() {
               </div>
                 <div className={`${style.cartAndBuy}`}>
                   
-                    <button onClick={()=>(setDataToLoclaStorige(dataOfProduct),dispatch(clacTootlePrice()))}  className="add me-4"><i className="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    <button  onClick={()=>(setDataToLoclaStorige(dataOfProduct),dispatch(clacTootlePrice()))}  className="add me-4" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><i className="fa-solid fa-cart-shopping"></i> Add To Cart</button>
                   
                 <button  className='buy'>Buy Now</button>
                 </div>
               
             </div>
-
           </div>
         </div>
         </div>
